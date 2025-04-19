@@ -12,7 +12,7 @@ layout: default
 </div>
 
 <script>
-  fetch('/assets/data/plot_final.json')
+  fetch('{{ site.baseurl }}/assets/data/plot_final.json')
     .then(response => response.json())
     .then(data => {
       const plotData = data.plotData;

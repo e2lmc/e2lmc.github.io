@@ -1,0 +1,29 @@
+theme: jekyll-theme-cayman
+
+title: "LLM Evaluation Competition: Early Training Scientific Knowledge Evaluation of Small Language Models"
+
+description: NeurIPS 2025 Challenge
+
+timezone: America/New_York
+
+navigation:
+  Home: "index"
+  Rules: "rules"
+  Timeline: "dates"
+  Prizes: "prizes"
+  Starter Kit: "starter_kit"
+  Evaluation Metric: "evaluations"
+  Leaderboard: "leaderboard"
+  Organizers: "organizers"
+markdown: kramdown
+
+kramdown:
+  parse_span_html: true
+  parse_block_html: true
+  math_engine: katex
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-spaceship
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]

@@ -1,0 +1,633 @@
+@import "normalize";
+@import "rouge-github";
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $body-text-color;
+}
+
+#skip-to-content {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+
+  &:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    width: auto;
+    background: invert($body-link-color);
+    outline: thick solid invert($body-link-color);
+  }
+}
+
+a {
+  color: $body-link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  + .btn {
+    margin-left: 1rem;
+  }
+
+  @include large {
+    padding: 0.75rem 1rem;
+  }
+
+  @include medium {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  @include small {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+
+    + .btn {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+}
+
+@keyframes curve-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(100%) rotate(-5deg);
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%) rotate(5deg);
+  }
+}
+
+@keyframes curve-animation-horizontal {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) rotate(-3deg);
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%) rotate(3deg);
+  }
+}
+
+@keyframes wave-slide {
+  0% {
+    transform: translateX(-50%) scaleX(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(50%) scaleX(1);
+    opacity: 0;
+  }
+}
+
+@keyframes sine-wave {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  position: relative;
+  overflow: hidden;
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    pointer-events: none;
+  }
+
+  // First animated curve
+  &::before {
+    background-image: 
+      radial-gradient(
+        circle at 70% 50%,
+        rgba(255, 255, 255, 0.15) 0%,
+        transparent 60%
+      );
+    animation: curve-animation 8s infinite;
+  }
+
+  // Second animated curve
+  &::after {
+    background-image: 
+      radial-gradient(
+        circle at 30% 50%,
+        rgba(255, 255, 255, 0.15) 0%,
+        transparent 60%
+      );
+    animation: curve-animation 12s infinite;
+    animation-delay: -4s;
+  }
+
+  // Additional floating curves with more variety
+  .floating-curve {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+
+    // Diagonal curves
+    &:nth-child(1) {
+      background-image: 
+        linear-gradient(
+          45deg,
+          transparent 0%,
+          rgba(255, 255, 255, 0.12) 50%,
+          transparent 100%
+        );
+      animation: curve-animation 15s infinite;
+      animation-delay: -2s;
+    }
+
+    &:nth-child(2) {
+      background-image: 
+        linear-gradient(
+          -45deg,
+          transparent 0%,
+          rgba(255, 255, 255, 0.12) 50%,
+          transparent 100%
+        );
+      animation: curve-animation 17s infinite;
+      animation-delay: -7s;
+    }
+
+    // New horizontal curves
+    &:nth-child(3) {
+      background-image: 
+        linear-gradient(
+          90deg,
+          transparent 0%,
+          rgba(255, 255, 255, 0.15) 50%,
+          transparent 100%
+        );
+      animation: curve-animation-horizontal 20s infinite;
+      animation-delay: -3s;
+    }
+
+    &:nth-child(4) {
+      background-image: 
+        linear-gradient(
+          -90deg,
+          transparent 0%,
+          rgba(255, 255, 255, 0.15) 50%,
+          transparent 100%
+        );
+      animation: curve-animation-horizontal 18s infinite;
+      animation-delay: -9s;
+    }
+
+    // New wavy curves
+    &:nth-child(5) {
+      background-image: 
+        radial-gradient(
+          circle at 20% 30%,
+          rgba(255, 255, 255, 0.12) 0%,
+          transparent 40%
+        );
+      animation: curve-animation 14s infinite;
+      animation-delay: -5s;
+    }
+
+    &:nth-child(6) {
+      background-image: 
+        radial-gradient(
+          circle at 80% 70%,
+          rgba(255, 255, 255, 0.12) 0%,
+          transparent 40%
+        );
+      animation: curve-animation 16s infinite;
+      animation-delay: -8s;
+    }
+  }
+
+  // Scientific curve container
+  .scientific-curves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+  }
+
+  // Base sine wave curve
+  .wave-curve {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    opacity: 0.15;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: white;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    }
+
+    // Sine wave
+    &:nth-child(1) {
+      top: 30%;
+      &::before {
+        clip-path: path('M 0 50 Q 100 0, 200 50 Q 300 100, 400 50 Q 500 0, 600 50 Q 700 100, 800 50');
+      }
+      animation: sine-wave 15s linear infinite;
+    }
+
+    // Cosine wave
+    &:nth-child(2) {
+      top: 60%;
+      &::before {
+        clip-path: path('M 0 50 Q 100 100, 200 50 Q 300 0, 400 50 Q 500 100, 600 50 Q 700 0, 800 50');
+      }
+      animation: sine-wave 18s linear infinite;
+      opacity: 0.12;
+    }
+
+    // Damped sine wave
+    &:nth-child(3) {
+      top: 45%;
+      &::before {
+        clip-path: path('M 0 50 Q 50 0, 100 50 Q 150 100, 200 50 Q 250 25, 300 50 Q 350 75, 400 50');
+        transform: scaleX(2);
+      }
+      animation: sine-wave 20s linear infinite;
+      opacity: 0.1;
+    }
+  }
+
+  // Gaussian-like curves
+  .gaussian-curve {
+    position: absolute;
+    width: 150%;
+    height: 2px;
+    background: white;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    
+    &:nth-child(4) {
+      top: 40%;
+      transform: translateX(-50%) scaleX(0.5);
+      clip-path: path('M 0 100 Q 250 0, 500 100');
+      animation: wave-slide 12s ease-in-out infinite;
+    }
+
+    &:nth-child(5) {
+      top: 55%;
+      transform: translateX(-50%) scaleX(0.3);
+      clip-path: path('M 0 100 Q 250 -50, 500 100');
+      animation: wave-slide 14s ease-in-out infinite;
+      animation-delay: -7s;
+    }
+  }
+
+  @include large {
+    padding: 3rem 6rem;
+  }
+
+  @include medium {
+    padding: 2rem 4rem;
+  }
+
+  @include small {
+    padding: 1.5rem 1rem;
+  }
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+
+  @include large {
+    font-size: 3.25rem;
+  }
+
+  @include medium {
+    font-size: 2.25rem;
+  }
+
+  @include small {
+    font-size: 1.75rem;
+  }
+}
+
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
+.main-content {
+  word-wrap: break-word;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  @include large {
+    max-width: 72rem;
+    padding: 2rem 4rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    padding: 1.5rem 3rem;
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    padding: 1.5rem 0.75rem;
+    font-size: 1rem;
+  }
+  
+  kbd {
+    background-color: #fafbfc;
+    border: 1px solid #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #959da5;
+    color: #444d56;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 10px;
+    padding: 3px 5px;
+    vertical-align: middle;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: $section-headings-color;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: $code-text-color;
+    background-color: $code-bg-color;
+    border-radius: 0.3rem;
+  }
+
+  pre {
+    padding: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: $code-text-color;
+    word-wrap: normal;
+    background-color: $code-bg-color;
+    border: solid 1px $border-color;
+    border-radius: 0.3rem;
+
+    > code {
+      padding: 0;
+      margin: 0;
+      font-size: 0.9rem;
+      color: $code-text-color;
+      word-break: normal;
+      white-space: pre;
+      background: transparent;
+      border: 0;
+    }
+  }
+
+  .highlight {
+    margin-bottom: 1rem;
+
+    pre {
+      margin-bottom: 0;
+      word-break: normal;
+    }
+  }
+
+  .highlight pre,
+  pre {
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  pre code,
+  pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+
+    &:before,
+    &:after {
+      content: normal;
+    }
+  }
+
+  ul,
+  ol {
+    margin-top: 0;
+  }
+
+  blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: $blockquote-text-color;
+    border-left: 0.3rem solid $border-color;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
+    -webkit-overflow-scrolling: touch;
+
+    th {
+      font-weight: bold;
+    }
+
+    th,
+    td {
+      padding: 0.5rem 1rem;
+      border: 1px solid $table-border-color;
+    }
+  }
+
+  dl {
+    padding: 0;
+
+    dt {
+      padding: 0;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    dd {
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: $hr-border-color;
+    border: 0;
+  }
+}
+
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px $hr-border-color;
+
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 1rem;
+  }
+
+  @include small {
+    font-size: 0.9rem;
+  }
+}
+
+.site-footer-owner {
+  display: block;
+  font-weight: bold;
+}
+
+.site-footer-credits {
+  color: $blockquote-text-color;
+}

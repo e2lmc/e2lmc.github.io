@@ -97,7 +97,7 @@ Existing benchmarks have proven effective for assessing the performance of fully
 
 ## Anouncements
 
-- **15/04/2025**: Competition officially kicks off on TBD :tada: ! We provide the starting kit for participants to get easily started 
+- **15/04/2025**: Competition officially kicks off on TBD 🎉 ! We provide the starting kit for participants to get easily started 
 
 
 

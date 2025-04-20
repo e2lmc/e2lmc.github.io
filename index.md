@@ -43,19 +43,20 @@ layout: default
         const layout = {
           title: title,
           xaxis: {
-            title: '',
+            title: 'Training Tokens',
             range: plotData[benchmark].xAxis.range,
-            visible: false,
-            zeroline: false,
+            visible: true,
+            zeroline: true,
             showgrid: true,
             gridcolor: 'rgba(128, 128, 128, 0.2)',
             fixedrange: true,
             hoverformat: '.2f'
           },
           yaxis: {
-            visible: false,
+            title: 'Score',
+            visible: true,
             range: plotData[benchmark].yAxis.range,
-            zeroline: false,
+            zeroline: true,
             showgrid: true,
             gridcolor: 'rgba(128, 128, 128, 0.2)',
             fixedrange: true
@@ -104,3 +105,4 @@ Existing benchmarks have proven effective for assessing the performance of fully
 ### Aknowledgements
 
 Website built on top of [LLM model merging challenge website](https://github.com/llm-merging/llm-merging.github.io)
+</div>

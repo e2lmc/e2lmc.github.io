@@ -28,6 +28,8 @@ In the following, we describe the content of the jupyter notebooks :
 
 - **6-Submission:** This notebook presents the composition of a submission bundle for [Codabench](https://www.codabench.org/competitions/3282/) and usable parameters. 
 
+- **7-Scientific-Alignment**: This notebook exposes how we will assess the *scientific alignment* of the proposed benchmarks using GPT4 as a judge.  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/127EYY-edGPwivnZwkDiSXyneFdj9AObO?usp=sharing) 
+
 Please join us on Discord for discussions and up-to-date announcements:
 <br>
 

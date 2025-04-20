@@ -8,20 +8,20 @@
     <meta charset="UTF-8">
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>LLM Evaluation Competition: Early Training Scientific Knowledge Evaluation of Small Language Models | NeurIPS 2025 Challenge</title>
+<title>LLM Evaluation Competition Proposal: Early Training Scientific Knowledge Evaluation of Small Language Models | NeurIPS 2025 Challenge</title>
 <meta name="generator" content="Jekyll v3.10.0">
-<meta property="og:title" content="LLM Evaluation Competition: Early Training Scientific Knowledge Evaluation of Small Language Models">
+<meta property="og:title" content="LLM Evaluation Competition Proposal: Early Training Scientific Knowledge Evaluation of Small Language Models">
 <meta property="og:locale" content="en_US">
 <meta name="description" content="NeurIPS 2025 Challenge">
 <meta property="og:description" content="NeurIPS 2025 Challenge">
 <link rel="canonical" href="http://localhost:4000/evaluations.html">
 <meta property="og:url" content="http://localhost:4000/evaluations.html">
-<meta property="og:site_name" content="LLM Evaluation Competition: Early Training Scientific Knowledge Evaluation of Small Language Models">
+<meta property="og:site_name" content="LLM Evaluation Competition Proposal: Early Training Scientific Knowledge Evaluation of Small Language Models">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="LLM Evaluation Competition: Early Training Scientific Knowledge Evaluation of Small Language Models">
+<meta property="twitter:title" content="LLM Evaluation Competition Proposal: Early Training Scientific Knowledge Evaluation of Small Language Models">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"NeurIPS 2025 Challenge","headline":"LLM Evaluation Competition: Early Training Scientific Knowledge Evaluation of Small Language Models","url":"http://localhost:4000/evaluations.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"NeurIPS 2025 Challenge","headline":"LLM Evaluation Competition Proposal: Early Training Scientific Knowledge Evaluation of Small Language Models","url":"http://localhost:4000/evaluations.html"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -152,7 +152,7 @@
     <header class="page-header" role="banner">
         <div class="floating-curve"></div>
         <div class="floating-curve"></div>
-        <h1 class="project-name">LLM Evaluation Competition: Early Training Scientific Knowledge Evaluation of Small Language Models</h1>
+        <h1 class="project-name">LLM Evaluation Competition Proposal: Early Training Scientific Knowledge Evaluation of Small Language Models</h1>
         <h1 class="project-tagline">NeurIPS 2025 Challenge</h1>
         
         <a href="index" class="btn">Home</a>
@@ -179,15 +179,13 @@
 
 <p>We propose to evaluate submitted solutions based on three main criteria, which will be combined into a global score used for the final ranking: signal quality (SQ), ranking consistency (RC) and compliance to scientific knowledge domains (CS). In addition, a compliance check will be applied to all submissions to ensure alignment with the scientific knowledge domains (see Appendix E on the proposal paper).</p>
 
-<!-- <div class="math-content">
-The overall score is computed as a weighted sum:
+<p>The overall score is computed as a weighted sum:</p>
 
-\$\$
+<!-- ```latex
 \text{Score} = \alpha_{1} \times \text{Score}_{\text{SQ}} + \alpha_{2} \times \text{Score}_{\text{RC}} + \alpha_{3} \times \text{Score}_{\text{CS}}
-\$\$
+```
 
-Here, $\alpha_{SQ}$, $\alpha_{RC}$ and $\alpha_{CS}$ are weighting coefficients that reflect the relative importance of each criterion. We set the initial weights as $\alpha_{1} = 0.5$, $\alpha_{2} = 0.1$ and $\alpha_{3} = 0.4$, thereby placing greater emphasis on signal quality and compliance to scientific knowledge, which we consider the most important metrics in evaluating submissions.
-</div> -->
+Here, $\alpha_{1}$, $\alpha_{2}$ and $\alpha_{3}$ are weighting coefficients that reflect the relative importance of each criterion. We set the initial weights as $\alpha_{1} = 0.5$, $\alpha_{2} = 0.1$ and $\alpha_{3} = 0.4$, thereby placing greater emphasis on signal quality and compliance to scientific knowledge, which we consider the most important metrics in evaluating submissions. -->
 
 <p>Participants will be able to compute the signal quality subscore locally using the provided model checkpoints (ranging from 0 to 200 BT) along with the accompanying scoring algorithm (provided in a notebook the starting kit). In contrast, the other two subscores cannot be computed independently, as the corresponding checkpoints—from 200 GT to 1 T tokens, as well as the 0.5 billion parameter model trained exclusively on web data—will remain hidden throughout the competition. The global score will, however, be automatically computed upon submission via the Codabench platform, enabling participants to monitor their overall performance. This setup is designed to prevent overly customized solutions tailored specifically to the released checkpoints</p>
 

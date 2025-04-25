@@ -24,7 +24,7 @@ In the following, we describe the content of the jupyter notebooks :
 
 - **4-How_to_Contribute**: This notebook explains how to fully integrate a new task within [`lm-evaluation-harness`](https://github.com/EleutherAI/lm-evaluation-harness) package [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gnkTry6OOuuPlDWm6cMinrzm58LMMxkV?usp=sharing)
 
-- **5-Scoring**: This notebook shows firstly how the score is computed by describing its different components. Next, it provides a script which can be used locally by the participants to obtain a score for their contributions. We encourage participants to evaluate their solutions via codabench (which uses the same scoring module as the one described in this notebook). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](TODO)
+- **5-Scoring**: This notebook shows firstly how the score is computed by describing its different components. Next, it provides a script which can be used locally by the participants to obtain a score for their contributions. We encourage participants to evaluate their solutions via codabench (which uses the same scoring module as the one described in this notebook). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sH0Pe-HS2zJyFt0yxec7dyMk0KY2ZRlz?usp=sharing)
 
 - **6-Submission:** This notebook presents the composition of a submission bundle for [Codabench](https://www.codabench.org/competitions/3282/) and usable parameters. 
 

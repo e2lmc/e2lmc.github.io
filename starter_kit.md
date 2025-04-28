@@ -26,7 +26,7 @@ In the following, we describe the content of the jupyter notebooks :
 
 - **5-Scoring**: This notebook shows firstly how the score is computed by describing its different components. Next, it provides a script which can be used locally by the participants to obtain a score for their contributions. We encourage participants to evaluate their solutions via codabench (which uses the same scoring module as the one described in this notebook). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sH0Pe-HS2zJyFt0yxec7dyMk0KY2ZRlz?usp=sharing)
 
-- **6-Submission:** This notebook presents the composition of a submission bundle for [Codabench](https://www.codabench.org/) and usable parameters. 
+- **6-Submission:** This notebook presents the composition of a submission bundle for [Codabench](https://www.codabench.org/) and usable parameters (to be available soon). 
 
 - **7-Scientific-Alignment**: This notebook exposes how we will assess the *scientific alignment* of the proposed benchmarks using GPT4 as a judge.  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/127EYY-edGPwivnZwkDiSXyneFdj9AObO?usp=sharing) 
 

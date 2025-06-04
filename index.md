@@ -99,10 +99,3 @@ Existing benchmarks have proven effective for assessing the performance of fully
 ## Anouncements
 
 - **15/04/2025**: Competition officially kicks off on TBD 🎉 ! We provide the starting kit for participants to get easily started 
-
-
-
-### Aknowledgements
-
-Website built on top of [LLM model merging challenge website](https://github.com/llm-merging/llm-merging.github.io)
-</div>

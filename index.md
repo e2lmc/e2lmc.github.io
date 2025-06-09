@@ -98,4 +98,5 @@ Existing benchmarks have proven effective for assessing the performance of fully
 
 ## Anouncements
 
-- **15/04/2025**: Competition officially kicks off on TBD 🎉 ! We provide the starting kit for participants to get easily started 
+- **26/05/2025**: Competition proposal accepted at NeurIPS 2025!
+- **07/07/2025**: E2ML Competition Kick-off 

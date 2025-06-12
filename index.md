@@ -92,7 +92,7 @@ Model Performance across training tokens
 
 ## Register on Codabench
 Your can register [here](https://www.codabench.org/competitions/9118/)   
-You can join the discussion channel at  https://discord.gg/fcYeR8bn
+You can join the discussion channel [here](https://discord.gg/fcYeR8bn)
 
 
 ## Competition Overview

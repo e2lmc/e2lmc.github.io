@@ -90,7 +90,7 @@ layout: default
 Model Performance across training tokens 
 </div>
 
-## Register on Codabench
+## Register on Codabench to participate 
 Your can register [here](https://www.codabench.org/competitions/9118/)   
 You can join the discussion channel [here](https://discord.gg/fcYeR8bn)
 

@@ -90,10 +90,12 @@ layout: default
 Model Performance across training tokens 
 </div>
 
-## Register on Codabench to participate 
-Your can register [here](https://www.codabench.org/competitions/9118/)   
-You can join the discussion channel [here](https://discord.gg/fcYeR8bn)
-You can find more details in the [Competition proposal paper](https://arxiv.org/abs/2506.07731)
+<div style="text-align: center; font-family: Arial, sans-serif;">
+  <h2> Register on Codabench to Participate </h2>
+  <p>You can register <a href="https://www.codabench.org/competitions/9118/" style="color: #007BFF;">here</a> </p>
+  <p>You can join the discussion channel <a href="https://discord.gg/fcYeR8bn" style="color: #5865F2;">here</a> </p>
+  <p>You can find more details in the <a href="https://arxiv.org/abs/2506.07731" style="color: #1DA1F2;">Competition Proposal Paper</a> </p>
+</div>
 
 
 ## Competition Overview

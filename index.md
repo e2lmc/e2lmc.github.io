@@ -90,6 +90,11 @@ layout: default
 Model Performance across training tokens 
 </div>
 
+## Register on Codabench
+Your can register [here](https://www.codabench.org/competitions/9118/)   
+You can join the discussion channel at  https://discord.gg/fcYeR8bn
+
+
 ## Competition Overview
 
 <div style="font-size: 0.9em; line-height: 1.6; text-align: justify;">
@@ -101,7 +106,4 @@ Existing benchmarks have proven effective for assessing the performance of fully
 - **26/05/2025**: Competition proposal accepted at NeurIPS 2025!
 - **07/07/2025**: E2ML Competition Kick-off 
 
-## Discord Channel 
-
-- You can join the discussion channel at : https://discord.gg/fcYeR8bn
 

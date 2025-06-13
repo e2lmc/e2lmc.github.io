@@ -90,6 +90,14 @@ layout: default
 Model Performance across training tokens 
 </div>
 
+<div style="text-align: center; font-family: Arial, sans-serif;">
+  <h2> Register on Codabench to Participate </h2>
+  <p>You can register <a href="https://www.codabench.org/competitions/9118/" style="color: #007BFF;">here</a> </p>
+  <p>You can join the discussion channel <a href="https://discord.gg/fcYeR8bn" style="color: #5865F2;">here</a> </p>
+  <p>You can find more details in the <a href="https://arxiv.org/abs/2506.07731" style="color: #1DA1F2;">Competition Proposal Paper</a> </p>
+</div>
+
+
 ## Competition Overview
 
 <div style="font-size: 0.9em; line-height: 1.6; text-align: justify;">
@@ -104,7 +112,4 @@ This competition tackles the challenge of designing scientific knowledge evaluat
 - **26/05/2025**: Competition proposal accepted at NeurIPS 2025!
 - **07/07/2025**: E2ML Competition Kick-off 
 
-## Discord Channel 
-
-- You can join the discussion channel at : https://discord.gg/fcYeR8bn
 

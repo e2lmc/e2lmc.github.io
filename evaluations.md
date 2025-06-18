@@ -14,4 +14,8 @@ The overall score is computed as a weighted sum:
 
 Participants will be able to compute the signal quality subscore locally using the provided model checkpoints (ranging from 0 to 200 BT) along with the accompanying scoring algorithm (provided in a notebook the starting kit). In contrast, the other two subscores cannot be computed independently, as the corresponding checkpoints—from 200 GT to 1 T tokens, as well as the 0.5 billion parameter model trained exclusively on web data—will remain hidden throughout the competition. The global score will, however, be automatically computed upon submission via the Codabench platform, enabling participants to monitor their overall performance. This setup is designed to prevent overly customized solutions tailored specifically to the released checkpoints
 
-For more details, please refer to **Metrics** section of the paper.
+<div style="text-align: center; margin: 20px 0;">
+ <img src="evaluation.png" alt="Competition Banner" style="max-width: 100%; height: auto; margin-bottom: 10px;" />
+</div>
+
+For more details, please refer to **Metrics** section of the paper. 

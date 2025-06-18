@@ -4,97 +4,27 @@ layout: default
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-<div style="display: flex; flex-wrap: nowrap; gap: 20px; margin-bottom: 20px; overflow-x: auto;">
-  <div id="plot-container-mmlu-var" style="min-width: 300px; height: 400px; flex: 1;"></div>
-  <div id="plot-container-mmlu" style="min-width: 300px; height: 400px; flex: 1;"></div>
-  <div id="plot-container-gpqa" style="min-width: 300px; height: 400px; flex: 1;"></div>
-  <div id="plot-container-math" style="min-width: 300px; height: 400px; flex: 1;"></div>
+<div style="text-align: center; margin: 20px 0;">
+ <img src="site-photo.png" alt="Competition Banner" style="max-width: 100%; height: auto; margin-bottom: 10px;" />
 </div>
 
-<script>
-  fetch('{{ site.baseurl }}/assets/data/plot_final.json')
-    .then(response => response.json())
-    .then(data => {
-      const plotData = data.plotData;
-      
-      // Function to create a plot
-      function createPlot(containerId, benchmark, title) {
-        const traces = [];
-        
-        plotData[benchmark].series.forEach(series => {
-          const x = series.data.map(point => point[0]);
-          const y = series.data.map(point => point[1]);
-          
-          traces.push({
-            x: x,
-            y: y,
-            name: series.name,
-            type: 'scatter',
-            mode: series.name.includes('dashed') ? 'lines' : 'lines+markers',
-            line: {
-              dash: series.name.includes('dashed') ? 'dash' : 'solid',
-              color: series.name.includes('blue') ? 'blue' : 
-                     series.name.includes('orange') ? 'orange' : 'green'
-            },
-            hovertemplate: 'x: %{x:.0f} | y: %{y:.3f} <extra></extra> '
-          });
-        });
 
-        const layout = {
-          title: title,
-          xaxis: {
-            title: 'Training Tokens',
-            range: plotData[benchmark].xAxis.range,
-            visible: true,
-            zeroline: true,
-            showgrid: true,
-            gridcolor: 'rgba(128, 128, 128, 0.2)',
-            fixedrange: true,
-            hoverformat: '.2f'
-          },
-          yaxis: {
-            title: 'Score',
-            visible: true,
-            range: plotData[benchmark].yAxis.range,
-            zeroline: true,
-            showgrid: true,
-            gridcolor: 'rgba(128, 128, 128, 0.2)',
-            fixedrange: true
-          },
-          hovermode: 'x',
-          hoverlabel: {
-            bgcolor: 'white',
-            font: { size: 12 }
-          },
-          showlegend: false,
-          margin: { t: 50, r: 20, b: 0, l: 0 }
-        };
 
-        const config = {
-          displayModeBar: false,
-          responsive: true
-        };
-
-        Plotly.newPlot(containerId, traces, layout, config);
-      }
-
-      // Create all plots
-      createPlot('plot-container-mmlu-var', 'MMLU-Var', 'MMLU-Var');
-      createPlot('plot-container-mmlu', 'MMLU', 'MMLU');
-      createPlot('plot-container-gpqa', 'GPQA', 'GPQA');
-      createPlot('plot-container-math', 'MATH', 'MATH');
-    });
-</script>
-
-<div style="text-align: center; margin: 20px 0; font-size: 0.7em;">
-Model Performance across training tokens 
+<div style="text-align: center; margin: 20px 0; font-size: 0.7em;font-size: 28px;">
+From Noise to Knowledge: Rethinking Benchmarks for the Early Training of LLMs
 </div>
 
-<div style="text-align: center; font-family: Arial, sans-serif;">
+<div style="text-align: center; font-family: Comic, sans-serif; font-size: 44px; color:rgb(166, 0, 255);">
+Join us in building  benchmarks that capture early-stage reasoning & Scientific Knowledge in LLMs
+</div>
+
+
+
+<div style="text-align: left; font-family: Arial, sans-serif;">
   <h2> Register on Codabench to Participate </h2>
   <p>You can register <a href="https://www.codabench.org/competitions/9118/" style="color: #007BFF;">here</a> </p>
-  <p>You can join the discussion channel <a href="https://discord.gg/fcYeR8bn" style="color: #5865F2;">here</a> </p>
-  <p>You can find more details in the <a href="https://arxiv.org/abs/2506.07731" style="color: #1DA1F2;">Competition Proposal Paper</a> </p>
+  <p>You can join the discussion channel <a href="https://discord.gg/fcYeR8bn" style="color: #007BFF;">here</a> </p>
+  <p>You can find more details in the <a href="https://arxiv.org/abs/2506.07731" style="color: #007BFF;">Competition Proposal Paper</a> </p>
 </div>
 
 
@@ -112,4 +42,97 @@ This competition tackles the challenge of designing scientific knowledge evaluat
 - **26/05/2025**: Competition proposal accepted at NeurIPS 2025!
 - **07/07/2025**: E2ML Competition Kick-off 
 
+## Competition Timeline
+<table class="foo" style="border-collapse: collapse; width: 100%;">
+    <tr style="border-bottom: 1px solid #ddd;">
+        <td width="50%" style="padding: 12px;"><b> Competition Period</b></td>
+        <td width="50%" style="padding: 12px;">07 July 2025 - 04 November 2025</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd;">
+        <td width="50%" style="padding: 12px;"><b> Warm-up Phase</b></td>
+        <td width="50%" style="padding: 12px;">07 July 2025 - 11 August 2025 (5 weeks)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd;">
+        <td width="50%" style="padding: 12px;"><b> Development Phase</b></td>
+        <td width="50%" style="padding: 12px;">11 August 2025 - 20 October 2025 (10 weeks)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd;">
+        <td width="50%" style="padding: 12px;"><b> Final Phase</b></td>
+        <td width="50%" style="padding: 12px;">20 October 2025 - 03 November 2025 (3 weeks)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd;">
+        <td width="50%" style="padding: 12px;"><b> Results Announcement</b></td>
+        <td width="50%" style="padding: 12px;">04 November 2025</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd;">
+        <td width="50%" style="padding: 12px;"><b> Winners' Fact Sheets & Code Release Due</b></td>
+        <td width="50%" style="padding: 12px;">22 November 2025</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd;">
+        <td width="50%" style="padding: 12px;"><b> NeurIPS Competition Workshop Presentation</b></td>
+        <td width="50%" style="padding: 12px;">6 or 7 December 2025</td>
+    </tr>
+</table>
+
+## Prizes
+
+- 🥇 **1st Place**: 6,000 USD
+- 🥈 **2nd Place**: 4,000 USD
+- 🥉 **3rd Place**: 2,000 USD
+
+A public leaderboard showcasing the top evaluation tasks across a diverse set of LLMs will be maintained. 
+
+## Special prizes
+
+- 🎓 **Student Awards**: 2x 2,000 USD for the top 2 solutions submitted by participants justifying a student status
+
+## Organizers
+
+- Mouadh Yagoubi, <i>Technology Innovation Institute</i>
+- Yasser Dahou, <i>Technology Innovation Institute</i>
+- Billel Mokeddem, <i>Technology Innovation Institute</i>
+- Younes Belkada, <i>Technology Innovation Institute</i>
+- Phuc H. Le-Khac, <i>Technology Innovation Institute</i>
+- Basma El Amel Boussaha, <i>Technology Innovation Institute</i>
+- Reda Alami, <i>Technology Innovation Institute</i>
+- Jingwei Zuo, <i>Technology Innovation Institute</i>
+- Damiano Marsili, <i>California Institute of Technology</i>
+- Mugariya Farooq, <i>Technology Innovation Institute</i>
+- Mounia Lalmas, <i>Spotify UK</i>
+- Georgia Gkioxari, <i>California Institute of Technology</i>
+- Patrick Gallinari, <i>Sorbonne University</i>
+- Philip Torr, <i>Oxford University</i>
+- Hakim Hacid, <i>Technology Innovation Institute</i>
+
+## Affiliated Institutions
+
+<table cellspacing="40" cellpadding="0" style="border-collapse: collapse; margin: 0 auto; width: 100%;">
+    <tr>
+        <td style="text-align: center; border: none; width: 20%;">
+            <div class="institution">
+                <img src="assets/fig_org_inst/tii_logo.png" alt="TII Logo" style="width: 150px; height: auto; object-fit: contain;">
+            </div>
+        </td>
+        <td style="text-align: center; border: none; width: 20%;">
+            <div class="institution">
+                <img src="assets/fig_org_inst/spotify_logo.png" alt="Spotify Logo" style="width: 150px; height: auto; object-fit: contain;">
+            </div>
+        </td>
+        <td style="text-align: center; border: none; width: 20%;">
+            <div class="institution">
+                <img src="assets/fig_org_inst/caltech_logo.png" alt="Caltech Logo" style="width: 150px; height: auto; object-fit: contain;">
+            </div>
+        </td>
+        <td style="text-align: center; border: none; width: 20%;">
+            <div class="institution">
+                <img src="assets/fig_org_inst/sorbonne_logo.png" alt="Sorbonne Logo" style="width: 150px; height: auto; object-fit: contain;">
+            </div>
+        </td>
+        <td style="text-align: center; border: none; width: 20%;">
+            <div class="institution">
+                <img src="assets/fig_org_inst/oxford_logo.png" alt="Oxford Logo" style="width: 150px; height: auto; object-fit: contain;">
+            </div>
+        </td>
+    </tr>
+</table>
 

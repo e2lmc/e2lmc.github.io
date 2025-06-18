@@ -19,6 +19,8 @@
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
         type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.tab_title }}</title>
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon" />
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   
@@ -145,7 +147,7 @@
     <header class="page-header" role="banner">
         <div class="floating-curve"></div>
         <div class="floating-curve"></div>
-        <h1 class="project-name">{{ site.title | default: page.title }}</h1>
+        <h1 class="project-name">{{ site.visible_title  }}</h1>
         <h1 class="project-tagline">{{ page.description | default: site.description }}</h1>
         {% for item in site.navigation %}
         <a href="{{ item[1] }}" class="btn">{{ item[0] }}</a>

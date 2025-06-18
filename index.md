@@ -90,6 +90,10 @@ A public leaderboard showcasing the top evaluation tasks across a diverse set of
 
 - 🎓 **Student Awards**: 2x 2,000 USD for the top 2 solutions submitted by participants justifying a student status
 
+## Contact and Support 
+
+For inquiries and support, reach out to the task coordinators at e2lmc@tii.ae
+
 ## Organizers
 
 - Mouadh Yagoubi, <i>Technology Innovation Institute</i>

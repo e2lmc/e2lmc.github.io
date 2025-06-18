@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 
-title: "NeurIPS 2025 E2LM Competition: Early Training Evaluation of Language Models"
+visible_title: "NeurIPS 2025 E2LM Competition: Early Training Evaluation of Language Models"
+title: "E2LM Competition 2025" 
 
 description: 
 
@@ -8,7 +9,7 @@ timezone: Asia/Dubai
 
 navigation:
   Home: "index"
-  Terms: "Terms"
+  Rules: "rules"
   Timeline: "dates"
   Prizes: "prizes"
   Starter Kit: "starter_kit"

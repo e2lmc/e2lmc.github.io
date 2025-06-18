@@ -18,14 +18,18 @@ From Noise to Knowledge: Rethinking Benchmarks for the Early Training of LLMs
 Join us in building  benchmarks that capture early-stage reasoning & Scientific Knowledge in LLMs
 </div>
 
+## Register on CodaBench to Participate
 
+- **Competition registration**: You can register directly on [the CodaBench competition page](https://www.codabench.org/competitions/9118/).
+- **Discord**: You can join the discussion channel [here](https://discord.gg/fcYeR8bn)
+- **Arxiv**: You can find more details in the [Competition Proposal Paper](https://arxiv.org/abs/2506.07731)
 
-<div style="text-align: left; font-family: Arial, sans-serif;">
+<!-- <div style="text-align: left; font-family: Arial, sans-serif;">
   <h2> Register on Codabench to Participate </h2>
   <p>You can register <a href="https://www.codabench.org/competitions/9118/" style="color: #007BFF;">here</a> </p>
   <p>You can join the discussion channel <a href="https://discord.gg/fcYeR8bn" style="color: #007BFF;">here</a> </p>
   <p>You can find more details in the <a href="https://arxiv.org/abs/2506.07731" style="color: #007BFF;">Competition Proposal Paper</a> </p>
-</div>
+</div> -->
 
 
 ## Competition Overview

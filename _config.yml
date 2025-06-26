@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 
-visible_title: "NeurIPS 2025 E2LM Competition: Early Training Evaluation of Language Models"
+visible_title: "NeurIPS 2025 E2LM Competition: Early Training Evaluation of Language Modelssssss"
 title: "E2LM Competition 2025" 
 
 description: 
@@ -14,6 +14,7 @@ navigation:
   Prizes: "prizes"
   Starter Kit: "starter_kit"
   Evaluation Metric: "evaluations"
+  Registration: "registration"
   Leaderboard: "leaderboard"
   Organizers: "organizers"
 markdown: kramdown

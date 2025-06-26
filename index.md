@@ -4,11 +4,12 @@ layout: default
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-<div style="text-align: center; margin: 20px 0;">
+<!-- <div style="text-align: center; margin: 20px 0;">
  <img src="site-photo.png" alt="Competition Banner" style="max-width: 100%; height: auto; margin-bottom: 10px;" />
+</div> -->
+<div style="text-align: center; margin: 20px 0;">
+ <img src="site-photo.png" alt="Competition Banner" style="max-width: 1300px; width: 100%; height: auto; margin-bottom: 10px;" />
 </div>
-
-
 
 <div style="text-align: center; margin: 20px 0; font-size: 0.7em;font-size: 28px;">
 From Noise to Knowledge: Rethinking Benchmarks for the Early Training of LLMs
@@ -33,7 +34,6 @@ Join us in building  benchmarks that capture early-stage reasoning & Scientific 
 
 
 ## Competition Overview
-
 <div style="font-size: 0.9em; line-height: 1.6; text-align: justify;">
 
 The development of Large Language Models (LLMs) typically begins with a series of ablation experiments, wherein various model architectures, data mixtures, and training hyperparameters are systematically evaluated. This phase is commonly referred to as the early stages of training. During this period, researchers primarily monitor two key metrics: the training loss curve and evaluation scores. However, existing evaluation benchmarks often fail to provide meaningful or discriminative signals during these initial stages where LLMs are trained on a few tokens ~300B tokens, making it challenging to derive conclusive insights from ongoing experiments.

@@ -56,7 +56,7 @@ This competition tackles the challenge of designing scientific knowledge evaluat
 <table class="foo" style="border-collapse: collapse; width: 100%;">
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Competition kick-off</b></td>
-        <td width="50%" style="padding: 12px;">07 July 2025</td>
+        <td width="50%" style="padding: 12px;">14 July 2025</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Warm-up Phase</b></td>

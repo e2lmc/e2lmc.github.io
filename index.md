@@ -64,7 +64,7 @@ This competition tackles the challenge of designing scientific knowledge evaluat
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Development Phase</b></td>
-        <td width="50%" style="padding: 12px;">18 August 2025 - 27 October 2025 (10 weeks)</td>
+        <td width="50%" style="padding: 12px;">18 August 2025 - 26 October 2025 (10 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Final Phase</b></td>

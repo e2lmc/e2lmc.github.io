@@ -3,6 +3,9 @@ layout: default
 ---
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<div style="text-align: center; margin: 20px 0;">
+ <img src="assets/images/logo.png" alt="Site Logo" style="max-width: 200px; height: auto; margin-bottom: 20px;" />
+</div>
 
 <!-- <div style="text-align: center; margin: 20px 0;">
  <img src="site-photo.png" alt="Competition Banner" style="max-width: 100%; height: auto; margin-bottom: 10px;" />

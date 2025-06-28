@@ -9,7 +9,7 @@ From Noise to Knowledge: Rethinking Benchmarks for the Early Training of LLMs
 </div>
 
 <div style="text-align: center; margin: 20px 0; font-size: 0.7em;font-size: 28px;">
-Join us in building  benchmarks that capture early-stage reasoning & Scientific Knowledge in LLMs
+Join us in building  benchmarks that capture early-stage reasoning & scientific knowledge in LLMs
 </div>
 
 

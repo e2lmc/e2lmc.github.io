@@ -4,11 +4,11 @@ layout: default
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-<div style="text-align: center; margin: 20px 0; font-size: 0.7em;font-size: 28px;">
+<div style="text-align: center; font-family: Comic, sans-serif; font-size: 44px; color:rgb(166, 0, 255);">
 From Noise to Knowledge: Rethinking Benchmarks for the Early Training of LLMs
 </div>
 
-<div style="text-align: center; font-family: Comic, sans-serif; font-size: 44px; color:rgb(166, 0, 255);">
+<div style="text-align: center; margin: 20px 0; font-size: 0.7em;font-size: 28px;">
 Join us in building  benchmarks that capture early-stage reasoning & Scientific Knowledge in LLMs
 </div>
 

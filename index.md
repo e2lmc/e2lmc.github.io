@@ -41,16 +41,6 @@ The development of Large Language Models (LLMs) typically begins with a series o
 This competition tackles the challenge of designing scientific knowledge evaluation tasks specifically tailored for measuring early training progress of language models. Participants are invited to develop novel evaluation methodologies or adapt existing benchmarks to better capture performance differences among language models. To support this effort, we provide three pre-trained small models (0.5B, 1B, and 3B parameters), along with intermediate checkpoints sampled during training up to 200B tokens. All experiments and development work can be run on widely available free cloud-based GPU platforms, making participation accessible to researchers with modest hardware. Submissions will be evaluated based on three criteria: the quality of the performance signal they produce, the consistency of model rankings at 1 trillion tokens of training, and their alignment with the scientific knowledge domain. By promoting the design of tailored evaluation strategies for SLMs, this competition aims to attract a broad range of participants from around the world, including those who may not be machine learning experts or have access to dedicated GPU resources. Ultimately, this initiative seeks to make foundational LLM research more systematic and benchmark-informed from the earliest phases of model development.
 </div>
 
-## Who can take part
-
-
-
-
-
-## Anouncements
-
-- **26/05/2025**: Competition proposal accepted at NeurIPS 2025!
-- **07/07/2025**: E2ML Competition Kick-off 
 
 ## Competition Timeline
 <table class="foo" style="border-collapse: collapse; width: 100%;">

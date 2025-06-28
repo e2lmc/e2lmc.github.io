@@ -17,7 +17,7 @@ Join us in building  benchmarks that capture early-stage reasoning & scientific 
  <img src="site-photo.png" alt="Competition Banner" style="max-width: 100%; height: auto; margin-bottom: 10px;" />
 </div> -->
 <div style="text-align: center; margin: 20px 0;">
- <img src="site-photo.png" alt="Competition Banner" style="max-width: 1300px; width: 100%; height: auto; margin-bottom: 10px;" />
+ <img src="photo-noise.png" alt="Competition Banner" style="max-width: 1300px; width: 100%; height: auto; margin-bottom: 10px;" />
 </div>
 
 

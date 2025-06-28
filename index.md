@@ -6,6 +6,14 @@ layout: default
 <div style="text-align: center; margin: 20px 0;">
  <img src="assets/images/logo.png" alt="Site Logo" style="max-width: 200px; height: auto; margin-bottom: 20px;" />
 </div>
+<div style="text-align: center; margin: 20px 0; font-size: 0.7em;font-size: 28px;">
+From Noise to Knowledge: Rethinking Benchmarks for the Early Training of LLMs
+</div>
+
+<div style="text-align: center; font-family: Comic, sans-serif; font-size: 44px; color:rgb(166, 0, 255);">
+Join us in building  benchmarks that capture early-stage reasoning & Scientific Knowledge in LLMs
+</div>
+
 
 <!-- <div style="text-align: center; margin: 20px 0;">
  <img src="site-photo.png" alt="Competition Banner" style="max-width: 100%; height: auto; margin-bottom: 10px;" />
@@ -14,13 +22,6 @@ layout: default
  <img src="site-photo.png" alt="Competition Banner" style="max-width: 1300px; width: 100%; height: auto; margin-bottom: 10px;" />
 </div>
 
-<div style="text-align: center; margin: 20px 0; font-size: 0.7em;font-size: 28px;">
-From Noise to Knowledge: Rethinking Benchmarks for the Early Training of LLMs
-</div>
-
-<div style="text-align: center; font-family: Comic, sans-serif; font-size: 44px; color:rgb(166, 0, 255);">
-Join us in building  benchmarks that capture early-stage reasoning & Scientific Knowledge in LLMs
-</div>
 
 ## Register here to participate
 

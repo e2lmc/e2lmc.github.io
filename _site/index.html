@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary">
 <meta property="twitter:title" content="E2LM Competition 2025">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"E2LM Competition 2025","name":"E2LM Competition 2025","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","headline":"E2LM Competition 2025","name":"E2LM Competition 2025","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -157,7 +157,7 @@
         
         <a href="index" class="btn">Home</a>
         
-        <a href="rules" class="btn">Rules</a>
+        <a href="rules" class="btn">Terms</a>
         
         <a href="dates" class="btn">Timeline</a>
         
@@ -167,6 +167,8 @@
         
         <a href="evaluations" class="btn">Evaluation Metric</a>
         
+        <a href="registration" class="btn">Registration</a>
+        
         <a href="leaderboard" class="btn">Leaderboard</a>
         
         <a href="organizers" class="btn">Organizers</a>
@@ -175,23 +177,26 @@
     <main id="content" class="main-content" role="main">
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-<div style="text-align: center; margin: 20px 0;">
-  <p><img src="site-photo.png" alt="Competition Banner" style="max-width: 100%; height: auto; margin-bottom: 10px;"></p>
-</div>
-
-<div style="text-align: center; margin: 20px 0; font-size: 0.7em;font-size: 28px;">
+<div style="text-align: center; font-family: Comic, sans-serif; font-size: 44px; color:rgb(166, 0, 255);">
   <p>From Noise to Knowledge: Rethinking Benchmarks for the Early Training of LLMs</p>
 </div>
 
-<div style="text-align: center; font-family: Comic, sans-serif; font-size: 44px; color:rgb(166, 0, 255);">
-  <p>Join us in building  benchmarks that capture early-stage reasoning &amp; Scientific Knowledge in LLMs</p>
+<div style="text-align: center; margin: 20px 0; font-size: 0.7em;font-size: 28px;">
+  <p>Join us in building  benchmarks that capture early-stage reasoning &amp; scientific knowledge in LLMs</p>
 </div>
 
-<h2 id="register-on-codabench-to-participate">Register on CodaBench to Participate</h2>
+<!-- <div style="text-align: center; margin: 20px 0;">
+ <img src="site-photo.png" alt="Competition Banner" style="max-width: 100%; height: auto; margin-bottom: 10px;" />
+</div> -->
+<div style="text-align: center; margin: 20px 0;">
+  <p><img src="photo-noise.png" alt="Competition Banner" style="max-width: 1300px; width: 100%; height: auto; margin-bottom: 10px;"></p>
+</div>
+
+<h2 id="register-here-to-participate">Register here to participate</h2>
 
 <ul>
   <li>
-<strong>Competition registration</strong>: You can register directly on <a href="https://www.codabench.org/competitions/9118/">the CodaBench competition page</a>.</li>
+<strong>Competition registration</strong>: You can register <a href="/registration">here</a>.</li>
   <li>
 <strong>Discord</strong>: You can join the discussion channel <a href="https://discord.gg/fcYeR8bn">here</a>
 </li>
@@ -208,7 +213,6 @@
 </div> -->
 
 <h2 id="competition-overview">Competition Overview</h2>
-
 <div style="font-size: 0.9em; line-height: 1.6; text-align: justify;">
 
   <p>The development of Large Language Models (LLMs) typically begins with a series of ablation experiments, wherein various model architectures, data mixtures, and training hyperparameters are systematically evaluated. This phase is commonly referred to as the early stages of training. During this period, researchers primarily monitor two key metrics: the training loss curve and evaluation scores. However, existing evaluation benchmarks often fail to provide meaningful or discriminative signals during these initial stages where LLMs are trained on a few tokens ~300B tokens, making it challenging to derive conclusive insights from ongoing experiments.</p>
@@ -216,32 +220,23 @@
   <p>This competition tackles the challenge of designing scientific knowledge evaluation tasks specifically tailored for measuring early training progress of language models. Participants are invited to develop novel evaluation methodologies or adapt existing benchmarks to better capture performance differences among language models. To support this effort, we provide three pre-trained small models (0.5B, 1B, and 3B parameters), along with intermediate checkpoints sampled during training up to 200B tokens. All experiments and development work can be run on widely available free cloud-based GPU platforms, making participation accessible to researchers with modest hardware. Submissions will be evaluated based on three criteria: the quality of the performance signal they produce, the consistency of model rankings at 1 trillion tokens of training, and their alignment with the scientific knowledge domain. By promoting the design of tailored evaluation strategies for SLMs, this competition aims to attract a broad range of participants from around the world, including those who may not be machine learning experts or have access to dedicated GPU resources. Ultimately, this initiative seeks to make foundational LLM research more systematic and benchmark-informed from the earliest phases of model development.</p>
 </div>
 
-<h2 id="anouncements">Anouncements</h2>
-
-<ul>
-  <li>
-<strong>26/05/2025</strong>: Competition proposal accepted at NeurIPS 2025!</li>
-  <li>
-<strong>07/07/2025</strong>: E2ML Competition Kick-off</li>
-</ul>
-
 <h2 id="competition-timeline">Competition Timeline</h2>
 <table class="foo" style="border-collapse: collapse; width: 100%;">
     <tr style="border-bottom: 1px solid #ddd;">
-        <td width="50%" style="padding: 12px;"><b> Competition Period</b></td>
-        <td width="50%" style="padding: 12px;">07 July 2025 - 04 November 2025</td>
+        <td width="50%" style="padding: 12px;"><b> Competition kick-off</b></td>
+        <td width="50%" style="padding: 12px;">14 July 2025</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Warm-up Phase</b></td>
-        <td width="50%" style="padding: 12px;">07 July 2025 - 11 August 2025 (5 weeks)</td>
+        <td width="50%" style="padding: 12px;">14 July 2025 - 17 August 2025 (5 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Development Phase</b></td>
-        <td width="50%" style="padding: 12px;">11 August 2025 - 20 October 2025 (10 weeks)</td>
+        <td width="50%" style="padding: 12px;">18 August 2025 - 26 October 2025 (10 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Final Phase</b></td>
-        <td width="50%" style="padding: 12px;">20 October 2025 - 03 November 2025 (3 weeks)</td>
+        <td width="50%" style="padding: 12px;">27 October 2025 - 03 November 2025 (3 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Results Announcement</b></td>

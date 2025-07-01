@@ -4,7 +4,7 @@ layout: default
 
 ## Starter kit
 
-This starter kit includes a set of Jupyter notebooks designed to help participants better understand the use case and learn how to contribute to the competition. For general information about the challenge and instructions on how to submit your solutions, please refer to the competition page [Codabench page](TODO).
+This starter kit includes a set of Jupyter notebooks designed to help participants better understand the use case and learn how to contribute to the competition. 
 
 ### Prerequisites
 

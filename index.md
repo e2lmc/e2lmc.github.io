@@ -24,7 +24,7 @@ Join us in building  benchmarks that capture early-stage reasoning & scientific 
 ## Register here to participate
 
 - **Competition registration**: You can register [here](/registration).
-- **Discord**: You can join the discussion channel [here](https://discord.gg/fcYeR8bn)
+- **Discord**: You can join the discussion channel [here](https://discord.gg/9aYU5fA4)
 - **Arxiv**: You can find more details in the [Competition Proposal Paper](https://arxiv.org/abs/2506.07731)
 
 <!-- <div style="text-align: left; font-family: Arial, sans-serif;">

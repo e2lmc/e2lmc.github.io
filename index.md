@@ -30,7 +30,7 @@ Join us in building  benchmarks that capture early-stage reasoning & scientific 
 <!-- <div style="text-align: left; font-family: Arial, sans-serif;">
   <h2> Register on Codabench to Participate </h2>
   <p>You can register <a href="https://www.codabench.org/competitions/9118/" style="color: #007BFF;">here</a> </p>
-  <p>You can join the discussion channel <a href="https://discord.gg/fcYeR8bn" style="color: #007BFF;">here</a> </p>
+  <p>You can join the discussion channel <a href="https://discord.gg/9aYU5fA4" style="color: #007BFF;">here</a> </p>
   <p>You can find more details in the <a href="https://arxiv.org/abs/2506.07731" style="color: #007BFF;">Competition Proposal Paper</a> </p>
 </div> -->
 
@@ -43,6 +43,7 @@ The development of Large Language Models (LLMs) typically begins with a series o
 This competition tackles the challenge of designing scientific knowledge evaluation tasks specifically tailored for measuring early training progress of language models. Participants are invited to develop novel evaluation methodologies or adapt existing benchmarks to better capture performance differences among language models. To support this effort, we provide three pre-trained small models (0.5B, 1B, and 3B parameters), along with intermediate checkpoints sampled during training up to 200B tokens. All experiments and development work can be run on widely available free cloud-based GPU platforms, making participation accessible to researchers with modest hardware. Submissions will be evaluated based on three criteria: the quality of the performance signal they produce, the consistency of model rankings at 1 trillion tokens of training, and their alignment with the scientific knowledge domain. By promoting the design of tailored evaluation strategies for SLMs, this competition aims to attract a broad range of participants from around the world, including those who may not be machine learning experts or have access to dedicated GPU resources. Ultimately, this initiative seeks to make foundational LLM research more systematic and benchmark-informed from the earliest phases of model development.
 </div>
 
+## Eva
 
 ## Competition Timeline
 <table class="foo" style="border-collapse: collapse; width: 100%;">

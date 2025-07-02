@@ -18,4 +18,4 @@ Participants will be able to compute the signal quality subscore locally using t
  <img src="evaluation.png" alt="Competition Banner" style="max-width: 100%; height: auto; margin-bottom: 10px;" />
 </div>
 
-For more details, please refer to **Metrics** section of the paper. 
+For more details, please refer to **Metrics** section of the [Competition Proposal Paper](https://arxiv.org/abs/2506.07731)

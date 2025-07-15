@@ -33,4 +33,4 @@ In the following, we describe the content of the jupyter notebooks:
 Please join us on Discord for discussions and up-to-date announcements:
 <br>
 
-Join our discord <a href="">here</a>.
+Join our discord <a href="https://discord.gg/XhafZ5qU">here</a>.

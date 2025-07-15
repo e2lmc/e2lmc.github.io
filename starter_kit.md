@@ -14,7 +14,7 @@ Most of the notebooks provided in this repository are runnable through Google Co
 
 In the following, we describe the content of the jupyter notebooks: 
 
-- **0-Basic_Competition_Information**: This notebook contains general information regarding the competition organization, phases, deadlines and terms. The content is the same as the one shared in the competition Codabench page. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](TODO) 
+<!-- - **0-Basic_Competition_Information**: This notebook contains general information regarding the competition organization, phases, deadlines and terms. The content is the same as the one shared in the competition Codabench page. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](TODO)  -->
 
 - **1-How_to_interact_with_model**: This notebook aims to familiarize the participants with the tools used to interact with the model and perform some easy text generation tasks. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pmRaGgVulB391Jb26ixI8g9guBgFP836?usp=sharing)
 

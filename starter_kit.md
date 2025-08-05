@@ -1,6 +1,3 @@
-<img width="1280" height="384" alt="image" src="https://github.com/user-attachments/assets/ef6d00c4-1ffc-482e-a14d-40ef12b6a3e3" />---
-layout: default
----
 
 ## Starter kit
 

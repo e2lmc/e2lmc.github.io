@@ -21,7 +21,7 @@ In the following, we describe the content of the jupyter notebooks:
 
 - **4.1-How_to_Contribute**: This notebook explains how to fully integrate a new task within [`lm-evaluation-harness`](https://github.com/EleutherAI/lm-evaluation-harness) package  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pMyQUEOi0Ng1Fm1RBhbQUOBPtE9iJGGV?usp=drive_link)
 
-- **4.2-How_to_Contribute**: This notebook explains how to get more familiar with the lm-evaluation-harness package: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WYY-YRJXySeIQijKIeBn6HQb_xNL_4eR?usp=sharing)
+- **4.2-How_to_Contribute_Advanced**: This notebook offers an in-depth exploration of the [`lm-evaluation-harness`](https://github.com/EleutherAI/lm-evaluation-harness)  package architecture and functionality.  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WYY-YRJXySeIQijKIeBn6HQb_xNL_4eR?usp=sharing)
   
 - **5-Scoring**: This notebook first explains how the score is calculated by detailing its various components. It then provides a script that participants can use locally to evaluate their contributions. We encourage participants to assess their solutions on Codabench, which utilizes the same scoring module described in this notebook. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sH0Pe-HS2zJyFt0yxec7dyMk0KY2ZRlz?usp=sharing)
 

@@ -52,19 +52,19 @@ This competition tackles the challenge of designing scientific knowledge evaluat
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Warm-up Phase</b></td>
-        <td width="50%" style="padding: 12px;">14 July 2025 - 17 August 2025 (5 weeks)</td>
+        <td width="50%" style="padding: 12px;">14 July 2025 - 24 August 2025 (5 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Development Phase</b></td>
-        <td width="50%" style="padding: 12px;">18 August 2025 - 26 October 2025 (10 weeks)</td>
+        <td width="50%" style="padding: 12px;">25 August 2025 - 2 November 2025 (10 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Final Phase</b></td>
-        <td width="50%" style="padding: 12px;">27 October 2025 - 03 November 2025 (3 weeks)</td>
+        <td width="50%" style="padding: 12px;"> 3 November 2025 - 10 November 2025 (3 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Results Announcement</b></td>
-        <td width="50%" style="padding: 12px;">04 November 2025</td>
+        <td width="50%" style="padding: 12px;"> 10 November 2025</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Winners' Fact Sheets & Code Release Due</b></td>

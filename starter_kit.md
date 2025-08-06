@@ -19,7 +19,7 @@ In the following, we describe the content of the jupyter notebooks:
 
 - **3-Reproduce_baseline_results**: This notebook shows how to reproduce the baseline results (MMLU-Var on a single checkpoint). It includes integrating MMLU-Var benchmark within the [`lm-evaluation-harness`](https://github.com/EleutherAI/lm-evaluation-harness) package and running it to get the results. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pMyQUEOi0Ng1Fm1RBhbQUOBPtE9iJGGV?usp=drive_link)
 
-- **4.1-How_to_Contribute**: This notebook explains how to fully integrate a new task within [`lm-evaluation-harness`](https://github.com/EleutherAI/lm-evaluation-harness) package  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pMyQUEOi0Ng1Fm1RBhbQUOBPtE9iJGGV?usp=drive_link)
+- **4.1-How_to_Contribute**: This notebook explains how to fully integrate a new task within [`lm-evaluation-harness`](https://github.com/EleutherAI/lm-evaluation-harness) package  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gnkTry6OOuuPlDWm6cMinrzm58LMMxkV?usp=sharing)
 
 - **4.2-How_to_Contribute_Advanced**: This notebook offers an in-depth exploration of the [`lm-evaluation-harness`](https://github.com/EleutherAI/lm-evaluation-harness)  package architecture and functionality.  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WYY-YRJXySeIQijKIeBn6HQb_xNL_4eR?usp=sharing)
   

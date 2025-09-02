@@ -15,6 +15,11 @@ To join the E2LM Competition, please follow these steps:
 3- Once you've joined the organization, you'll gain access to all competition materials, including model checkpoints and the leaderboard, and you'll be able to submit your solutions. The submission process is explained step by step in the starter kit, available in the notebook titled:
 "How to submit a solution?"
 
+<iframe
+  src="https://e2lmc-competition-leaderboard.hf.space/"
+  width="100%"
+  height="600"
+  frameborder="0"
+></iframe>
 
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyjLEfjln5cq8T6l5P-F1nDRZEDe349b2VwW6PffspkXtWhw/viewform?embedded=true" width="640" height="1010" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyjLEfjln5cq8T6l5P-F1nDRZEDe349b2VwW6PffspkXtWhw/viewform?embedded=true" width="640" height="1010" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->

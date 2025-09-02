@@ -5,9 +5,8 @@ layout: default
 <!-- ## Leaderboard  -->
 
 <iframe
-  src="https://e2lmc-competition-leaderboard.hf.space/"
+  src="https://https://e2lmc-competition-registration-form.hf.space/"
   width="100%"
-  height="600"
   frameborder="0"
 ></iframe>
 <!-- We will update here the final leaderboard of our participants in due time. -->

@@ -19,7 +19,7 @@ layout: default
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Final Phase</b></td>
-        <td width="50%" style="padding: 12px;">03 November 2025 - 10 November 2025 (1 weeks)</td>
+        <td width="50%" style="padding: 12px;">03 November 2025 - 10 November 2025 (1 week)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Results Announcement</b></td>

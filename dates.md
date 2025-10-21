@@ -31,6 +31,6 @@ layout: default
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> NeurIPS Competition Workshop Presentation</b></td>
-        <td width="50%" style="padding: 12px;">6 or 7 December 2025</td>
+        <td width="50%" style="padding: 12px;"> 7 December 2025</td>
     </tr>
 </table>

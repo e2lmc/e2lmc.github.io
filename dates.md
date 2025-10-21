@@ -15,15 +15,15 @@ layout: default
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Development Phase</b></td>
-        <td width="50%" style="padding: 12px;">18 August 2025 - 26 October 2025 (10 weeks)</td>
+        <td width="50%" style="padding: 12px;">18 August 2025 - 02 November 2025 (10 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Final Phase</b></td>
-        <td width="50%" style="padding: 12px;">27 October 2025 - 03 November 2025 (3 weeks)</td>
+        <td width="50%" style="padding: 12px;">03 November 2025 - 10 November 2025 (1 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Results Announcement</b></td>
-        <td width="50%" style="padding: 12px;">04 November 2025</td>
+        <td width="50%" style="padding: 12px;">10 November 2025</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Winners' Fact Sheets & Code Release Due</b></td>

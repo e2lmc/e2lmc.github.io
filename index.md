@@ -60,7 +60,7 @@ This competition tackles the challenge of designing scientific knowledge evaluat
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Final Phase</b></td>
-        <td width="50%" style="padding: 12px;"> 3 November 2025 - 10 November 2025 (3 weeks)</td>
+        <td width="50%" style="padding: 12px;"> 3 November 2025 - 10 November 2025 (1 weeks)</td>
     </tr>
     <tr style="border-bottom: 1px solid #ddd;">
         <td width="50%" style="padding: 12px;"><b> Results Announcement</b></td>

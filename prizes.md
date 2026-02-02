@@ -2,15 +2,18 @@
 layout: default
 ---
 
-## Prizes
+## Winning Solutions
 
-- 🥇 **1st Place**: 6,000 USD
+- Do you Know your Dataset? Early Benchmarking of Scientific Competence in Small Language Models. Anthony Kalaydjian, Eric Saikali	
+- Early Signals of Scientific Knowledge: Separating Scientific Truth from Coherent Noise. Giovani Valdrighi, Caio Rhoden
+
+<!-- - 🥇 **1st Place**: 6,000 USD
 - 🥈 **2nd Place**: 4,000 USD
-- 🥉 **3rd Place**: 2,000 USD
+- 🥉 **3rd Place**: 2,000 USD -->
 
-A public leaderboard showcasing the top evaluation tasks across a diverse set of LLMs will be maintained. 
 
-## Special prizes
+## Best student solution 
 
-- 🎓 **Student Awards**: 2x 2,000 USD for the top 2 solutions submitted by participants justifying a student status
+- Early-Stage LLM Evaluation: A Data-Driven Filtering Pipeline for MMLU. Mohammed Dahbani, Anas Ezzakri
+
 
